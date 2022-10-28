@@ -15,11 +15,11 @@
 "type.builtin" = "lime"
 "operator" = "cranberry"
 "namespace" = "turquoise"
-"function" = "sky"
-"function.builtin" = "green"
-"function.method" = "sky"
-"function.macro" = "green"
-"function.special" = "cranberry"
+"function" = { fg = "sky", modifiers = ["bold"] }
+"function.builtin" =  { fg = "green", modifiers = ["bold"] }
+"function.method" =  { fg = "sky", modifiers = ["bold"] }
+"function.macro" = { fg = "green", modifiers = ["bold"] }
+"function.special" = { fg = "cranberry", modifiers = ["bold"] }
 "tag" = "lime"
 "markup.heading" = "blue"
 "markup.heading.marker" = "orange"
